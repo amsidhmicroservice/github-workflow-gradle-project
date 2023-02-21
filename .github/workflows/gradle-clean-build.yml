@@ -31,3 +31,5 @@ jobs:
         with:
           name: github-workflow-gradle-project-build-reports
           path: build/reports/
+          if-no-files-found: error
+          retention-days: 5
